@@ -22,6 +22,8 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
+- [Key Features](#key-features)
+- [🔭 Future Features](#future-features)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -79,6 +81,23 @@ Example command:
   cd my-project
   gem install
 ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Create and inherit classes**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[To be Announced]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
