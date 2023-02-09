@@ -1,6 +1,6 @@
-require './nameable.rb'
-require 'capitalize_decorator.rb'
-require 'trimmer_decorator.rb'
+require './nameable'
+require 'capitalize_decorator'
+require 'trimmer_decorator'
 
 class Person < Nameable
   attr_reader :id
