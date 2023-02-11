@@ -2,7 +2,7 @@ require_relative 'book'
 require_relative 'person'
 require_relative 'student'
 require_relative 'teacher'
-require_relative 'rentals'
+require_relative 'rental'
 
 class App
   def initialize
@@ -93,7 +93,7 @@ class App
     print 'Date:'
     get_date = gets.chomp
 
-    rental = Rentals.new(get_date, @people[pr_index], @books[bk_index])
+    rental = Rental.new(get_date, @people[pr_index], @books[bk_index])
     @rentals.push(rental)
 
     puts 'Rental created successully'
