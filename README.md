@@ -28,7 +28,7 @@
 
 # 📖 Library <a name="about-project"></a>
 
-> In this project we learn how to use a module inside your class. For this we create a class MyList and a module MyLibrary..
+> In this project, We create a OOP based Library management platform which allows users to create both student and teacher profiles for a school and allows for rental functionalities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,15 +58,13 @@ In order to run this project you need:
 
 
 ### Setup
-
 Clone this repository to your desired folder:
-
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:lukman155/library.git
 ```
 -
 
@@ -78,17 +76,18 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  bundle install
 ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- **Create and inherit classes**
+- **Create a Book class**
+- **Create a Student and Teacher class using Inheritance**
+- **View all Books and Students**
+- **Create a rental class using composition**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +95,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[To be Announced]**
+- A counter for books rented
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,30 +125,15 @@ Feel free to check the [issues page](https://github.com/lukman155/Library/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, Please give a star or two ⭐️⭐️⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank my coding partners and everyone at Microverse, I couldn't have done it without you guys
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
