@@ -1,6 +1,6 @@
-require './nameable'
-require './capitalize_decorator'
-require './trimmer_decorator'
+require_relative 'nameable'
+require_relative 'capitalize_decorator'
+require_relative 'trimmer_decorator'
 require_relative 'rental'
 
 class Person < Nameable
@@ -24,7 +24,7 @@ class Person < Nameable
     @name
   end
 
-  def add_rental(book, date)
+  def add_rental(date, book)
     Rental.new(date, book, self)
   end
 
