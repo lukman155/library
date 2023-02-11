@@ -1,7 +1,7 @@
-require_relative 'book'
 require_relative 'person'
+require_relative 'book'
 
-class Rental
+class Rentals
   attr_accessor :date, :rentals
   attr_reader :person, :book
 

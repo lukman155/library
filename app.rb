@@ -2,7 +2,7 @@ require_relative 'book'
 require_relative 'person'
 require_relative 'student'
 require_relative 'teacher'
-require_relative 'rental'
+require_relative 'rentals'
 
 class App
   def initialize
@@ -25,7 +25,7 @@ class App
     end
   end
 
-  def create_student
+  def create_stedent
     print 'Age:'
     age = gets.chomp
     print 'name:'
@@ -60,7 +60,7 @@ class App
     response = gets.chomp
     case response
     when '1'
-      create_student
+      create_stedent
     when '2'
       create_teacher
     end
@@ -93,7 +93,7 @@ class App
     print 'Date:'
     get_date = gets.chomp
 
-    rental = Rental.new(get_date, @people[pr_index], @books[bk_index])
+    rental = Rentals.new(get_date, @people[pr_index], @books[bk_index])
     @rentals.push(rental)
 
     puts 'Rental created successully'
